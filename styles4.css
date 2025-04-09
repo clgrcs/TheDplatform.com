@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #6f707e, #1a1a1a); 
+    background-attachment: fixed;
+    color: #ffffff; 
+}
+
+header {
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    color: white; 
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(15, 2, 2, 0.5); 
+    background-color: gray;
+    margin-top: 40px;
+}
+
+a {
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 40px;
+    color: rgb(77, 78, 78);
+    text-shadow: 8px 8px 16px rgb(15, 2, 2, 0.5);
+}
+
+a:hover {
+    background-color: rgba(253, 252, 252, 0.774);
+}
+
+nav {
+    background-color: bisque;
+    padding: 20px;
+}
+
+.table {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 15%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-right: 1%;
+    margin-top: 235px;
+    padding-bottom: 285px;
+}
+
+main {
+    border: 1px solid rgb(245, 240, 240);
+    width: 75%;
+    margin-right: 1%;
+    margin-top: 75px;
+    margin-left: 5%;
+    padding-left: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+    background-color: rgb(180, 176, 176);
+}
+
+@media screen and (max-width: 768px) {
+    header h1 {
+        font-size: 30px; 
+        margin-top: 20px;
+    }
+
+    a {
+        font-size: 28px; 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .table {
+        width: 50%; 
+        margin-top: 20px;
+        margin-right: 0;
+        padding-bottom: 20px;
+    }
+
+    main {
+        width: 90%; 
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 30px;
+        padding-left: 10px;
+        padding-top: 15px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    header h1 {
+        font-size: 24px; 
+        margin-top: 10px;
+    }
+
+    a {
+        font-size: 20px; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .table {
+        width: 70%; 
+        margin-top: 10px;
+        margin-right: 0;
+        padding-bottom: 15px;
+    }
+
+    main {
+        width: 95%; 
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+        padding-left: 10px;
+        padding-top: 10px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    header h1 {
+        font-size: 50px; 
+        margin-top: 60px;
+    }
+
+    a {
+        font-size: 45px; 
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .table {
+        width: 15%; 
+        margin-top: 235px;
+        margin-right: 1%;
+    }
+
+    main {
+        width: 75%; 
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 75px;
+        padding-left: 10px;
+        padding-top: 20px;
+    }
+}

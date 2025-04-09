@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #6f707e, #1a1a1a); 
+    background-attachment: fixed;
+    color: #ffffff; 
+}
+nav a {
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 40px;
+    color: rgb(77, 78, 78);
+    text-shadow: 8px 8px 16px rgb(15, 2, 2, 0.5);
+}
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+nav {
+    background-color: bisque;
+    padding: 20px; 
+    text-align: center;
+}
+a:hover {
+    background-color: rgba(253, 252, 252, 0.774); 
+}
+main {
+    box-sizing: border-box;
+    text-align: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 50px;
+}
+
+.email a:hover {
+    background-color: rgba(80, 76, 76, 0.863); 
+}
+@media screen and (max-width: 768px) {
+    nav a {
+        font-size: 28px; 
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    main {
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 30px;
+    }
+
+    nav {
+        padding: 15px; 
+    }
+    .email a:hover {
+        background-color: rgba(80, 76, 76, 0.9); 
+    }
+}
+@media screen and (max-width: 480px) {
+    nav a {
+        font-size: 24px; 
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    main {
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 20px;
+    }
+
+    nav {
+        padding: 10px; 
+    }
+
+    .email a:hover {
+        background-color: rgba(80, 76, 76, 0.9); 
+    }
+}
+@media screen and (min-width: 1200px) {
+    nav a {
+        font-size: 48px; 
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    main {
+        margin-left: 35%;
+        margin-right: 35%;
+        margin-top: 70px; 
+    }
+}

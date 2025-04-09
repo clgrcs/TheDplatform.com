@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('original.avif');
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top: 15%;
+}
+header h1, header h3 {
+    margin: 0;
+    color: white; 
+    text-align: center;
+    text-shadow: 4px 4px 8px rgba(15, 2, 2, 0.5); 
+}
+h1 {
+    margin-bottom: 5px;
+}
+h3 {
+    margin-top: 0px;
+}
+nav {
+    text-align: center;
+    padding-top: 30px;
+}
+a {
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    text-shadow: 10px 10px 12px rgba(15, 2, 2, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
+}
+a:hover {
+    background-color: rgba(255, 255, 255, 0.3); 
+}
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+#search {
+    width: 500px;   
+    padding: 15px;             
+    font-size: 16px;        
+    border: 2px solid #7e7e7e;
+    box-shadow: 2px, 2px, 4px gray;
+    border-radius: 25px;    
+    outline: none;           
+}
+#search:focus {
+    border-color: #5b5e5b;  
+    box-shadow: 0 0 10px rgba(95, 97, 96, 0.6); 
+}
+.searchbox {
+    text-align: center;
+    margin-top: 50px;
+}
+@media screen and (max-width: 768px) {
+    header {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    h1, h3 {
+        font-size: 24px; 
+    }
+
+    nav {
+        padding-top: 20px;
+    }
+
+    a {
+        font-size: 1.1em;
+        padding: 10px; 
+    }
+
+    #search {
+        width: 90%; 
+        font-size: 14px; 
+    }
+
+    .searchbox {
+        margin-top: 30px; 
+    }
+}
+@media screen and (max-width: 480px) {
+    header {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    h1, h3 {
+        font-size: 18px; 
+    }
+
+    nav {
+        padding-top: 15px;
+    }
+
+    a {
+        font-size: 1em;
+        padding: 8px;
+    }
+
+    #search {
+        width: 100%;
+        font-size: 14px; 
+    }
+
+    .searchbox {
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width: 1200px) {
+    header {
+        margin-left: 450px;
+        margin-right: 450px;
+    }
+
+    h1, h3 {
+        font-size: 36px; 
+    }
+
+    a {
+        font-size: 1.3em; 
+    }
+
+    #search {
+        width: 600px; 
+    }
+}
